@@ -52,7 +52,7 @@ deactivate
 Once virtual enviornment for package dependencies has been completed, notebook files mentioned above can be open and run. Note: notebook files were created and run on Google Colab T4 GPU. Using CPU or differing GPU's may produce slower runtimes when running notebook files. All notebooks have data preperation steps that imports the data from TensorFlow, downloads the data into necessary folders. It is recommended to utilize the data_preperation.ipynb file to download and prepare the data to ensure proper data setup prior to running notebook files. 
 
 #### Sources Utilized:
-Data Source: https://www.tensorflow.org/datasets/catalog/stanford_dogs 
+Data Source: https://www.tensorflow.org/datasets/catalog/stanford_dogs \n
 Data Source Code Github Builder Page: https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/datasets/stanford_dogs/stanford_dogs_dataset_builder.py 
 
 
