@@ -14,7 +14,7 @@ For our final project, our goal was to construct a deep learning convolutional n
 We used three different pre-trained models throughout this experiment: Keras DenseNet121, Keras ResNet50, and HuggingFace Vision Transformer VIT model. Using these models as a baseline, we explored different augmentation and callback techniques as well as the introduction of transfer learning where early layers were frozen in order to fine tune the deeper ones.
 
 #### Results
-Hailee's best HuggingFace VIT model provided the best final testing accuracy of 0.9612 and loss of 0.1511. Caroline's best DenseNet121 model performed the same after transfer learning as it did without, with a final testing accuracy of 0.9363 and a loss of 0.1775. Leslie's best ResNet50 model had a final testing accuracy of 0.9208 and loss of 0.2926.
+Hailee's best HuggingFace VIT model provided the best final testing accuracy of 0.9612 and loss of 0.1511. Caroline's best DenseNet121 model performed the same after transfer learning as it did without, with a final testing accuracy of 0.9363 and a loss of 0.1775. Leslie's best ResNet50 model had a final testing accuracy of 0.9208 and loss of 0.2926. Accompanying model visualizations can be seen in relevant notebook files. 
 
 #### Steps to Running Code
 ##### Relevant notebooks and files: 
