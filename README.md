@@ -66,7 +66,7 @@ He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image r
 
 Keras ResNet50 | Image File Handling and Transfer Learning. (2022, October 3). EDUCBA. https://www.educba.com/keras-resnet50/ <br> 
 
-Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/  
+Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/ <br>  
 TensorFlow Datasets. (2023). Stanford Dogs dataset [Data set]. https://www.tensorflow.org/datasets/catalog/stanford_dogs <br> 
 
 TensorFlow. (n.d.). Transfer learning and fine‑tuning [Tutorial]. https://www.tensorflow.org/tutorials/images/transfer_learning <br> 
