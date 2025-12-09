@@ -51,9 +51,25 @@ deactivate
 ```
 Once virtual enviornment for package dependencies has been completed, notebook files mentioned above can be open and run. Note: notebook files were created and run on Google Colab T4 GPU. Using CPU or differing GPU's may produce slower runtimes when running notebook files. All notebooks have data preperation steps that imports the data from TensorFlow, downloads the data into necessary folders. It is recommended to utilize the data_preperation.ipynb file to download and prepare the data to ensure proper data setup prior to running notebook files. 
 
-#### Sources Utilized:
+#### Data Sources Utilized:
 1. Data Source: https://www.tensorflow.org/datasets/catalog/stanford_dogs 
-2. Data Source Code Github Builder Page: https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/datasets/stanford_dogs/stanford_dogs_dataset_builder.py 
+2. Data Source Code Github Builder Page: https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/datasets/stanford_dogs/stanford_dogs_dataset_builder.py
+
+#### Academic Sources Utilized: 
+
+MadTcTech. (2025, September 8). Create virtual environment and requirements.txt in Python [Video]. 
+YouTube. https://youtu.be/h8bt4RvE7zM <br> 
+
+Google. (n.d.). vit-base-patch16-224 [Model]. Hugging Face. Retrieved from https://huggingface.co/google/vit-base-patch16-224 <br> 
+
+He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 770–778). https://doi.org/10.1109/CVPR.2016.90 <br>
+
+Keras ResNet50 | Image File Handling and Transfer Learning. (2022, October 3). EDUCBA. https://www.educba.com/keras-resnet50/ <br> 
+
+Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/  
+TensorFlow Datasets. (2023). Stanford Dogs dataset [Data set]. https://www.tensorflow.org/datasets/catalog/stanford_dogs <br> 
+
+TensorFlow. (n.d.). Transfer learning and fine‑tuning [Tutorial]. https://www.tensorflow.org/tutorials/images/transfer_learning <br> 
 
 
 
