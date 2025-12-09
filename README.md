@@ -14,7 +14,7 @@ For our final project, our goal was to construct a deep learning convolutional n
 We used three different pre-trained models throughout this experiment: Keras DenseNet121, Keras ResNet50, and HuggingFace Vision Transformer VIT model. Using these models as a baseline, we explored different augmentation and callback techniques as well as the introduction of transfer learning where early layers were frozen in order to fine tune the deeper ones.
 
 #### Results
-Hailee's best HuggingFace VIT model provided the best final testing accuracy of 0.9612 and loss of 0.1511. Caroline's best DenseNet121 model performed the same after transfer learning as it did without, with a final testing accuracy of 0.9363 and a loss of 0.1775. Leslie's best ResNet50 model had a final testing accuracy of ___ and loss of ___.
+Hailee's best HuggingFace VIT model provided the best final testing accuracy of 0.9612 and loss of 0.1511. Caroline's best DenseNet121 model performed the same after transfer learning as it did without, with a final testing accuracy of 0.9363 and a loss of 0.1775. Leslie's best ResNet50 model had a final testing accuracy of 0.9208 and loss of 0.2926.
 
 #### Steps to Running Code
 ##### Relevant notebooks and files: 
@@ -22,13 +22,33 @@ Hailee's best HuggingFace VIT model provided the best final testing accuracy of 
 - densenet121_model_CarolineCorr: Caroline's pre-trained model script; only best combinations of augmentation/callbacks/model architecture kept; can be run concurrently with other pre-trained model scripts
 - huggingface_VIT_HaileeKim:
 - Resnet50_model_lesliegonzalez_floresipynb.ipynb: Leslie's pre-trained model notebook; attempts made with custom head before data augmentatio, with attempted data augmentation, and then transfer learning using best data augmentation technqiues can be seen. Each model run has accompanying accurary and loss learning curves, and confusion matrix for how each of the 20 classes performed.
-##### Steps: 
+##### Steps for Setting Up Enviornment: 
 1. Clone this repository
  ```
 git clone <this-repo-url>
 cd <this-project-folder>
-3. Create a Python Virtual Environment
 ```
-
+2. Create a Python Virtual Environment in Current Project Directory 
+```
+python -m venv venv
+```
+3. Activate Virtual Enviornment
+For Windows 
+```
+venv\Scripts\activate
+```
+For macOS\Linux 
+```
+source venv/bin/activate
+```
+4. Install packages from requirments.txt file
+```
+pip install -r requirments.txt
+```
+5. Deactivate virutal enviornment if necessary (once finished with utilizing enviornment for running notebooks). 
+```
+deactivate
+```
+Once virtual enviornment for package dependencies has been completed, notebook files mentioned above can be open and run. Note: notebook files were created and run on Google Colab T4 GPU. Using CPU or differing GPU's may produce slower runtimes when running notebook files. 
 
 
