@@ -17,12 +17,18 @@ We used three different pre-trained models throughout this experiment: Keras Den
 Hailee's best HuggingFace VIT model provided the best final testing accuracy of 0.9612 and loss of 0.1511. Caroline's best DenseNet121 model performed the same after transfer learning as it did without, with a final testing accuracy of 0.9363 and a loss of 0.1775. Leslie's best ResNet50 model had a final testing accuracy of ___ and loss of ___.
 
 #### Steps to Running Code
-### Relevant notebooks and files: 
+##### Relevant notebooks and files: 
 - data_perperation.ipynb: *Optional* - isolated notebook for data import from TensorFlow and necessary data preperation.Also included in each notebook, but listed separately for EDA/inspection if needed.
 - densenet121_model_CarolineCorr: Caroline's pre-trained model script; only best combinations of augmentation/callbacks/model architecture kept; can be run concurrently with other pre-trained model scripts
 - huggingface_VIT_HaileeKim:
 - Resnet50_model_lesliegonzalez_floresipynb.ipynb: Leslie's pre-trained model notebook; attempts made with custom head before data augmentatio, with attempted data augmentation, and then transfer learning using best data augmentation technqiues can be seen. Each model run has accompanying accurary and loss learning curves, and confusion matrix for how each of the 20 classes performed.
-
+##### Steps: 
+1. Clone this repository
+ ```
+git clone <this-repo-url>
+cd <this-project-folder>
+3. Create a Python Virtual Environment
+```
 
 
 
