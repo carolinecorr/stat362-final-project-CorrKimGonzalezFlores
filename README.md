@@ -69,12 +69,15 @@ Once virtual enviornment for package dependencies has been completed, notebook f
 #### Academic Sources Utilized: 
 Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/ <br> 
 Google. (n.d.). vit-base-patch16-224 [Model]. Hugging Face. Retrieved from https://huggingface.co/google/vit-base-patch16-224 <br>  
+
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 770–778). https://doi.org/10.1109/CVPR.2016.90 <br>
 
 Keras ResNet50 | Image File Handling and Transfer Learning. (2022, October 3). EDUCBA. https://www.educba.com/keras-resnet50/ <br> 
 
 MadTcTech. (2025, September 8). Create virtual environment and requirements.txt in Python [Video]. 
 YouTube. https://youtu.be/h8bt4RvE7zM <br>  
+
+Mao Jia. (2025, July). Inside a Vision Transformer (ViT): How image is classified step by step [Blog post]. GoPenAI. https://blog.gopenai.com/inside-a-vision-transformer-vit-how-image-is-classified-step-by-step-0af45d5acbca<br> 
 
 TensorFlow Datasets. (2023). Stanford Dogs dataset [Data set]. https://www.tensorflow.org/datasets/catalog/stanford_dogs <br> 
 
