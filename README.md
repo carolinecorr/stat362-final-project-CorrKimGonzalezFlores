@@ -67,17 +67,15 @@ Once virtual enviornment for package dependencies has been completed, notebook f
 2. Data Source Code Github Builder Page: https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/datasets/stanford_dogs/stanford_dogs_dataset_builder.py
 
 #### Academic Sources Utilized: 
-
-MadTcTech. (2025, September 8). Create virtual environment and requirements.txt in Python [Video]. 
-YouTube. https://youtu.be/h8bt4RvE7zM <br> 
-
-Google. (n.d.). vit-base-patch16-224 [Model]. Hugging Face. Retrieved from https://huggingface.co/google/vit-base-patch16-224 <br> 
-
+Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/ <br> 
+Google. (n.d.). vit-base-patch16-224 [Model]. Hugging Face. Retrieved from https://huggingface.co/google/vit-base-patch16-224 <br>  
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 770–778). https://doi.org/10.1109/CVPR.2016.90 <br>
 
 Keras ResNet50 | Image File Handling and Transfer Learning. (2022, October 3). EDUCBA. https://www.educba.com/keras-resnet50/ <br> 
 
-Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/ <br>  
+MadTcTech. (2025, September 8). Create virtual environment and requirements.txt in Python [Video]. 
+YouTube. https://youtu.be/h8bt4RvE7zM <br>  
+
 TensorFlow Datasets. (2023). Stanford Dogs dataset [Data set]. https://www.tensorflow.org/datasets/catalog/stanford_dogs <br> 
 
 TensorFlow. (n.d.). Transfer learning and fine‑tuning [Tutorial]. https://www.tensorflow.org/tutorials/images/transfer_learning <br> 
