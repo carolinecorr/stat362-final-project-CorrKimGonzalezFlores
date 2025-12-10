@@ -8,6 +8,11 @@
 - Hailee Kim
 - Leslie Gonzalez-Flores
 
+#### Table of Contents
+- `figures/`: sub-directory for all learning/cost curves, confusion matrices, and other visuals created throughout project
+- `scripts/`: sub-directory for all .ipynb files created (data import and preprocessing, baseline, and 3 pre-trained model pipelines)
+- `requirements.txt`: environment file - list of all packages and dependencies needed to reproduce this work
+
 #### Project Title: CNN Dog Breed Classification
 
 - For our final project, our goal was to construct a deep learning convolutional neural network (CNN) model that can effectively classify 20 dog breeds with over 90% final testing accuracy. This work has many practical applications such as identifying stray/lost dogs and expediting animal shelter intake processes. To build such a model, we are utilizing the Stanford Dogs dataset, sourced from TensorFlow. This data set includes a total of 20,580 images and 120 classes of various dog breeds. Given the large size of the dataset, it is imperative to utilize modeling techniques that can withhold the complexity of the dataset. The types of models our project focuses on are building CNN image classifications models that allow for our model to learn and make predictions from images. To limit model complexity given our computational restraints, we pared down the dataset to the 20 most frequently occurring breeds.
@@ -20,7 +25,7 @@ Hailee's best HuggingFace VIT model provided the best final testing accuracy of 
 #### Steps to Running Code
 ##### Relevant notebooks and files: 
 
-- 'Baseline_Model.ipynb': 
+- 'Baseline_Model.ipynb': Custom CNN architecture for pre-trained models' performance comparison; only achieved 0.1522 testing accuracy.
 - 'Data_Preparation.ipynb': *Optional* - isolated notebook for data import from TensorFlow and necessary data preperation.Also included in each notebook, but listed separately for EDA/inspection if needed.
 - 'DenseNet121_model_CarolineCorr.ipynb': Caroline's pre-trained model script; only best combinations of augmentation/callbacks/model architecture kept; can be run concurrently with other pre-trained model scripts
 - 'GoogleViT_HaileeKim.ipynb': Hailee's pre-trained model script; incorporates a pre-trained Google Vision Transformer (ViT) model sourced directly from HuggingFace
