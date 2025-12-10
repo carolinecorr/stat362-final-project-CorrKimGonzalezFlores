@@ -20,8 +20,8 @@ Hailee's best HuggingFace VIT model provided the best final testing accuracy of 
 ##### Relevant notebooks and files: 
 - data_perperation.ipynb: *Optional* - isolated notebook for data import from TensorFlow and necessary data preperation.Also included in each notebook, but listed separately for EDA/inspection if needed.
 - densenet121_model_CarolineCorr: Caroline's pre-trained model script; only best combinations of augmentation/callbacks/model architecture kept; can be run concurrently with other pre-trained model scripts
-- huggingface_VIT_HaileeKim:
-- Resnet50_model_lesliegonzalez_floresipynb.ipynb: Leslie's pre-trained model notebook; attempts made with custom head before data augmentatio, with attempted data augmentation, and then transfer learning using best data augmentation technqiues can be seen. Each model run has accompanying accurary and loss learning curves, and confusion matrix for how each of the 20 classes performed.
+- huggingface_VIT_HaileeKim: Hailee's pre-trained model script; incorporates a pre-trained Google Vision Transformer (ViT) model sourced directly from HuggingFace
+- Resnet50_model_lesliegonzalez_floresipynb.ipynb: Leslie's pre-trained model script; attempts made with custom head before data augumentation, with attempted data augmentation, and then transfer learning using best data augmentation techniques can be seen. Each model run has accompanying accuracy and loss learning curves, and confusion matrix for how each of the 20 classes performed.
 ##### Steps for Setting Up Enviornment: 
 1. Clone this repository
  ```
