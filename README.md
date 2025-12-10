@@ -68,6 +68,7 @@ Once virtual enviornment for package dependencies has been completed, notebook f
 
 #### Academic Sources Utilized: 
 Analytics Vidhya. (2021, October). Understanding transfer learning for deep learning. Retrieved from https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/ <br> 
+
 Google. (n.d.). vit-base-patch16-224 [Model]. Hugging Face. Retrieved from https://huggingface.co/google/vit-base-patch16-224 <br>  
 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 770–778). https://doi.org/10.1109/CVPR.2016.90 <br>
